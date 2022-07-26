@@ -7,6 +7,6 @@ def user():
     try:
         return "<h1> Hello </h1>"
     except Exception as e:
-        print(str(e))
+        return e 
 if __name__=="__main__":
     app.run(debug=True)
